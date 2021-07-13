@@ -17,9 +17,11 @@ const ResultItem: React.FC<Props> = ({ title, value, index }) => {
           {...provided.dragHandleProps}
           ref={provided.innerRef}
         >
-          <p>
-            {title}: <span>{String(value)}</span>
-          </p>
+          <div className="card-item">
+            <p>
+              {title}: <span>{String(value)}</span>
+            </p>
+          </div>
         </li>
       )}
     </Draggable>

@@ -1,4 +1,12 @@
 .results {
+  width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
+}
+
+.results ul {
+  margin: 1rem 0;
+  padding: 0;
 }

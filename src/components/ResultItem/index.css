@@ -1,5 +1,24 @@
+.card-item{
+  padding: 0.5rem 1rem;
+  width: 300px;
+  border: 1px solid darkblue;
+  margin: 0.5rem auto;
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+.card-item p {
+  font-weight: bold;
+}
+
 .result {
   list-style: none;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .card-item{
+    width: 400px;
+  }
 }

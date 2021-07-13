@@ -1,5 +1,4 @@
 .display {
-  padding: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -12,12 +11,18 @@
   color: white;
   font-size: 2rem;
   text-align: right;
+  padding-right: 1rem;
+  font-family: 'Orbitron', sans-serif;
+  max-width: 200px;
 }
 
 .display-button {
-  padding: 15px;
+  padding: 17px;
   width: 100px;
   background-color: red;
+  font-weight: bolder;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .display input::-webkit-outer-spin-button,
@@ -28,4 +33,10 @@
 
 .display input[type=number] {
   -moz-appearance: textfield;
+}
+
+@media screen and (min-width: 768px){
+  .display-input {
+    max-width: 300px;
+  }
 }
