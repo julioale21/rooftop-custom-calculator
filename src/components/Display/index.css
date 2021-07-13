@@ -1,0 +1,31 @@
+.display {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-input {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  text-align: right;
+}
+
+.display-button {
+  padding: 15px;
+  width: 100px;
+  background-color: red;
+}
+
+.display input::-webkit-outer-spin-button,
+.display input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.display input[type=number] {
+  -moz-appearance: textfield;
+}
