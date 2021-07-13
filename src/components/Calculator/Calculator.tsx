@@ -54,11 +54,19 @@ const Calculator: React.FC = () => {
   };
 
   const handleClearButton = (e: React.MouseEvent<HTMLButtonElement>) => {
+    if (!isInputValid(e.currentTarget.value)) return;
+
     if (e.currentTarget.id === "display1") {
       setInput1(0);
     } else if (e.currentTarget.id === "display2") {
       setInput2(0);
     }
+  };
+
+  const isInputValid = (input: string) => {
+    let i = new Number(input);
+
+    return !Number.isNaN(i);
   };
 
   return (
