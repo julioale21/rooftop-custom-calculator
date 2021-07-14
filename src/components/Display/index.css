@@ -17,8 +17,8 @@
 }
 
 .display-button {
-  padding: 17px;
-  width: 100px;
+  padding: 17px 10px;
+  width: 80px;
   background-color: #F05454;
   font-weight: bolder;
   text-transform: uppercase;
