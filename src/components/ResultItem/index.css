@@ -4,7 +4,8 @@
   border: 1px solid darkblue;
   margin: 0.5rem auto;
   border-radius: 10px;
-  background-color: aqua;
+  background-color: #50CB93;
+  box-shadow: 3px 3px 6px #8AD7C1;
 }
 
 .card-item p {
@@ -15,6 +16,7 @@
   list-style: none;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {

@@ -1,9 +1,15 @@
+.App {
+  background-color: #78DEC7;
+  margin-top: 0;
+}
+
 .calculator {
   width: 320px;
   margin: 0 auto;
+  background-color: #78DEC7;
   border: 1px solid black;
   padding: 2rem 1rem;
-  
+  box-shadow: 3px 3px 7px gray;
 }
 
 
