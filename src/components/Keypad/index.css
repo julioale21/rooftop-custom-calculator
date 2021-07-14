@@ -1,0 +1,14 @@
+.keypad {
+  padding: 1rem 0;
+  width: 320px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .keypad {
+    width: 420px;
+  }
+}
