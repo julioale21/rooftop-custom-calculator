@@ -8,7 +8,7 @@
   
 ## The objetive
 
-Your objetive is to build a calculator custom calculator with two inputs, by default both must have value 0.
+Your objetive is to build a custom calculator with two inputs, by default both must have value 0.
 
 Optional: Create a numeric keyboard.
 
