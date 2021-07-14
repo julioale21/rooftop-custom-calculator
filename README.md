@@ -1,5 +1,6 @@
-
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a5c8c489-070d-4fd3-b3fb-f9f1fc4fe2fe/deploy-status)](https://app.netlify.com/sites/rooftop-custom-calculator/deploys)
+![GitHub language count](https://img.shields.io/github/languages/count/julioale21/rooftop-custom-calculator?color=green)
+![GitHub top language](https://img.shields.io/github/languages/top/julioale21/rooftop-custom-calculator?color=green)
 
    <h1 align="center">Custom Calculator - Rooftop Academy</h1>
    
@@ -72,3 +73,9 @@ The files are structured as follow:
 * Clone repository.
 * Execute the command `npm install`
 * Execute the command `npm run serve`
+
+## Documentation:
+
+For the drag and drop I used the examples provided in the official repository of react-beautiful-dnd
+
+[https://codesandbox.io/s/k260nyxq9v](https://codesandbox.io/s/k260nyxq9v)
