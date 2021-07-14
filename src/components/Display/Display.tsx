@@ -2,12 +2,13 @@ import React from "react";
 import "./index.css";
 
 interface Props {
-  value: number;
+  value: string;
   id: string;
   handleChange: (e: React.FormEvent<HTMLInputElement>) => void;
   handleClear: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  handleFocus: (e: React.FocusEvent<HTMLInputElement>) => void;
 }
-const InputCalc: React.FC<Props> = ({ value, handleChange, handleClear, id }) => {
+const InputCalc: React.FC<Props> = ({ value, handleChange, handleClear, handleFocus, id }) => {
   return (
     <div className="display">
       <input
@@ -15,9 +16,10 @@ const InputCalc: React.FC<Props> = ({ value, handleChange, handleClear, id }) =>
         id={id}
         inputMode="decimal"
         step="0.01"
-        type="number"
-        value={value.toString()}
+        type="string"
+        value={value}
         onChange={handleChange}
+        onFocus={handleFocus}
       />
       <button className="display-button" id={id} onClick={handleClear}>
         clear
