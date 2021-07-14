@@ -44,6 +44,7 @@ Below it should automatically show all the calculations - addition, subtraction,
 - React.js
 - Vite js
 - CSS
+- React-Beautiful-DND
 
 ### Project Structure
 The files are structured as follow:
