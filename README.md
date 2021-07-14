@@ -12,12 +12,6 @@ Your objetive is to build a custom calculator with two inputs, by default both m
 
 Optional: Create a numeric keyboard.
 
-
-
-Crear una calculadora que tenga 2 inputs, por defecto ambos deben tener valor 0
-
-Opcional: crear el teclado numerico como interfaz
-
 You should only be able to write numbers.
 
 In each input there is a button that says "clear", when clicked on it the value should return to 0.
