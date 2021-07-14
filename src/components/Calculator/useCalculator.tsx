@@ -47,13 +47,22 @@ const useCalculator = () => {
   const handleChange = (e: React.FormEvent<HTMLInputElement>) => {
     if (!isInputValid(e.currentTarget.value.replace(".", ""))) return;
 
+    const regex = /0([1-9])\w+/g;
+
     const array = Array.from(e.currentTarget.value);
 
     const dotsCount = array.filter((item) => item === ".").length;
 
     if (dotsCount > 1) return;
 
-    const value = e.currentTarget.value;
+    let value = e.currentTarget.value;
+    const matchReg = value.match(regex);
+
+    if (matchReg?.length) {
+      value = value.substring(1);
+    }
+
+    if (value === "") value = "0";
 
     if (e.currentTarget.id === "display1") {
       setInput1(value);
